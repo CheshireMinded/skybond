@@ -1,0 +1,12 @@
+[Unit]
+Description=Skybond Heartbeat Sender
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/skybond/heartbeat.sh
+Restart=always
+User=skybond
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+{
+  "auth_user": "admin",
+  "auth_pass": "changeme",
+  "secret_key": "your-secure-shared-key",
+  "db_file": "telemetry.db",
+  "pre_registered_planes": [
+    {
+      "tail": "N123AB",
+      "public_key": "<base64-encoded-public-key>",
+      "signature": "<base64-encoded-signature>"
+    }
+  ]
+}
